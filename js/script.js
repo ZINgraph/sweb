@@ -4,6 +4,10 @@ for (let i = 0; i <= 17; i++) {
   let num = i.toString().padStart(2, '0');
   imagenes.push("img/port" + num + ".png");
 }
+imagenes.forEach(src => {
+  const imgPreload = new Image();
+  imgPreload.src = src;
+});
 
 let index = 0;
 
