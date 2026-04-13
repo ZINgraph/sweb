@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GDesign</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<header>
+  <p class="linea1">Diseño gráfico</p>
+  <p class="linea2">Identidad Visual</p>
+  <p class="linea3">Comunicación & Branding</p>
+  <h1 class="logo">GDesign</h1>
+</header>
+
+<p class="titulo-seccion">Portafolio de diseño</p>
+
+<!-- VISOR -->
+<section class="visor">
+
+  <!-- BOTONES -->
+  <div class="controles">
+  <button id="prev">Anterior</button>
+  <button id="home">Home</button>
+  <button id="next">Siguiente</button>
+</div>
+
+  <!-- IMAGEN -->
+  <div class="visor-contenido">
+    <img id="imagen" src="img/port00.png" alt="Portafolio">
+  </div>
+
+  <!-- TEXTO FIJO -->
+  <div class="texto-fijo">
+    Trabajos realizados,<br>
+    Diseño, actualización y mantenimiento<br>
+    de imagen e identidad visual para<br>
+    empresas, comercios y emprendimientos.
+  </div>
+
+</section>
+
+<!-- CUADROS -->
+<section class="cuadros">
+  <div class="cuadro" data-texto="creatividad"></div>
+  <div class="cuadro" data-texto="diseño"></div>
+  <div class="cuadro" data-texto="tendencia"></div>
+  <div class="cuadro" data-texto="proyectos"></div>
+  <div class="cuadro" data-texto="dedicación"></div>
+  <div class="cuadro" data-texto="innovación"></div>
+</section>
+
+<div id="textoActivo"></div>
+
+<!-- PROMO -->
+<section class="promo">
+  <h2>PROMOCIÓN</h2>
+  <p>Sistema visual de marca</p>
+  <a href="#" id="abrirPopup">Conocé cómo funciona y qué incluye este sistema</a>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-box">
+    <span id="cerrarPopup">✕</span>
+
+    <h2>Sistema visual completo</h2>
+
+    <p>Sistema de identidad + tarjetas de comunicación</p>
+
+    <p><strong>Desde $30.000</strong></p>
+    <p><strong>Completo + logotipo: $50.000</strong></p>
+  </div>
+</div>
+
+<!-- CONTACTO -->
+<footer>
+  <p>GDesign · Cintia Martínez</p>
+
+  <div class="iconos">
+    <a href="https://wa.me/5493425843447" target="_blank">
+      <img src="img/icono-wsp.png">
+    </a>
+
+    <a href="mailto:tuemail@gmail.com">
+      <img src="img/icono-mail.png">
+    </a>
+
+    <a href="tel:+5493425843447">
+      <img src="img/icono-tel.png">
+    </a>
+  </div>
+</footer>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
